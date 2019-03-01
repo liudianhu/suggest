@@ -1,0 +1,48 @@
+view{
+  display: flex;
+}
+
+.sug-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  width: 100%;
+}
+
+.sug-block{
+  margin-top:20rpx;
+  flex-direction:row;
+  justify-content: space-between;
+  border: 1rpx solid red;
+  align-items: flex-start
+}
+
+.sug-block-left{
+  width: 15%;
+}
+
+.sug-block-left image{
+  width: 100%
+}
+
+.sug-block-mid{
+  width: 77%;
+  flex-direction: column;
+}
+
+.title{
+  font-size:35rpx;
+  color:#575757;
+}
+
+.content{
+  color: #323232;
+}
+
+.sug-block-right{
+  width: 5%;
+}
+
+.sug-block-right image{
+  width: 100%
+}

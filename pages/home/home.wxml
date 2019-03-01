@@ -1,0 +1,18 @@
+<!--list.wxml-->
+
+<scroll-view scroll-y="true">
+  <view class="sug-container">
+    <view wx:for="{{suggestions}}" wx:for-index="{{item.id}}" class="sug-block">
+      <view class="sug-block-left">
+        <image src="{{item.avator}}" mode="widthFix"></image>
+      </view>
+      <view class="sug-block-mid">
+        <text class="title">{{item.title}}</text>
+        <view class="content">{{item.content}}</view>
+      </view>
+      <view class="sug-block-right">
+        <image src="../../images/icons/moreHL.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+</scroll-view>
